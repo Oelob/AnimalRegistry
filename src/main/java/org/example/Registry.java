@@ -13,6 +13,7 @@ public class Registry {
         this.registry = new ArrayList<>();
     }
 
+//region Методы
     public void addAnimal(Home_Animal animal){
         registry.add(animal);
     }
@@ -20,5 +21,5 @@ public class Registry {
     public void removeAnimal(Home_Animal animal){
         registry.remove(animal);
     }
-
+//endregion
 }
